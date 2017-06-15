@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color_grey_200"
+    android:gravity="center"
+    android:padding="10dp">
+    <bazararabia.com.and.font.RobotoTextView
+        android:id="@+id/logo_text"
+        style="@style/TextViewAppearance.Headline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="Logo"
+        android:textSize="30sp"
+        android:fontFamily="Arial"
+        android:textColor="@android:color/black" />
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/register_button_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/auth_setup_tb_button_size"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textSize="@dimen/auth_setup_buttons_textsize"
+        facebook:com_facebook_login_text="@string/register_fb_text" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/register_button_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_gg_text"
+        />
+
+
+    <Button
+        android:id="@+id/register_button_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_sign_up_email"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/auth_setup_tb_button_size"
+        android:theme="@style/Button_login" />
+</LinearLayout>

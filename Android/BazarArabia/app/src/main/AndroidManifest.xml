@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bazararabia.com.and">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:name="bazararabia.com.and.config.MyApplication"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".ui.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.RegisterSetupActivity"/>
+        <activity android:name=".ui.activity.RegisterEmailActivity"/>
+        <activity android:name=".ui.activity.DetailPostAdsActivity"/>
+
+        <activity android:name=".ui.activity.LoginActivity"/>
+        <activity android:name=".ui.activity.MainActivity"/>
+        <activity android:name=".ui.activity.WizardActivity"/>
+        <activity android:name=".ui.activity.ListViewsActivity"/>
+        <activity android:name=".ui.activity.NewPostActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".ui.activity.CategoryListActivity"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>

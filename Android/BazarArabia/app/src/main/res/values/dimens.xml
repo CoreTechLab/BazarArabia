@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="new_post_image_size">100dp</dimen>
+    <dimen name="new_post_recycle_view_height">100dp</dimen>
+    <dimen name="new_post_layout_lr_margin">10dp</dimen>
+
+    <dimen name="sign_button_textsize">14sp</dimen>
+    <dimen name="sign_button_width">100dp</dimen>
+    <dimen name="sign_button_height">35dp</dimen>
+
+
+    <dimen name="auth_setup_buttons_textsize">16sp</dimen>
+
+    <dimen name="auth_setup_tb_button_size">20dp</dimen>
+    <dimen name="auth_setup_email_button_height_size">40dp</dimen>
+
+    <dimen name="loginregister_layout_tb_margin">10dp</dimen>
+    <dimen name="loginregister_layout_padding">10dp</dimen>
+    <dimen name="loginregister_layout_common_margin">40dp</dimen>
+
+    <dimen name="detail_activity_robototext_tb_margin">20dp</dimen>
+
+    <dimen name="detail_activity_padding">10dp</dimen>
+    <dimen name="detail_activity_margin_left">20dp</dimen>
+</resources>

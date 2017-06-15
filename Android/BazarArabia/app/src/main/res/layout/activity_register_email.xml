@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.activity.RegisterEmailActivity"
+    >
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:paddingBottom="15dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/account_circle"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:tint="@color/white"
+            android:id="@+id/imageView3" />
+        <TextView
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:text="@string/please_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout">
+        <LinearLayout
+            android:layout_marginTop="@dimen/loginregister_layout_tb_margin"
+            android:padding="@dimen/loginregister_layout_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/register_input_layout_firstname"
+                android:layout_width="match_parent"
+                android:theme="@style/textview_login"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_firstname">
+                <EditText
+                    android:id="@+id/register_input_firstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="textPersonName"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/register_input_layout_lastname"
+                android:layout_width="match_parent"
+                android:theme="@style/textview_login"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_lastname">
+                <EditText
+                    android:id="@+id/register_input_lastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="textPersonName"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/register_input_layout_email"
+                android:layout_width="match_parent"
+                android:theme="@style/textview_login"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_email">
+                <EditText
+                    android:id="@+id/register_input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@android:color/white"
+                    android:inputType="textEmailAddress"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/register_input_layout_password"
+                android:layout_width="match_parent"
+                android:theme="@style/textview_login"
+                android:hint="@string/hint_password"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/register_input_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/register_btn"
+                android:text="@string/signup_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:layout_marginTop="@dimen/loginregister_layout_common_margin"
+                android:theme="@style/Button_login"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

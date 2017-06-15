@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1044939738965",
+    "firebase_url": "https://bazararabia-e072a.firebaseio.com",
+    "project_id": "bazararabia-e072a",
+    "storage_bucket": "bazararabia-e072a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044939738965:android:75b50d6b5f2e34cc",
+        "android_client_info": {
+          "package_name": "bazararabia.com.and"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044939738965-c5url6f6dp26djm2iheu02l57g082knf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bazararabia.com.and",
+            "certificate_hash": "fca110288e1c491adc32288dd57ee000698d8f33"
+          }
+        },
+        {
+          "client_id": "1044939738965-a7pmi72o9mqcp9vetcu5uc2gdp8cg84m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSpVYvxq6CJrrRXpX7HDi21hrJc4dcX14"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044939738965-a7pmi72o9mqcp9vetcu5uc2gdp8cg84m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
